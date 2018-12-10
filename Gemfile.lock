@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    email_address (0.1.11)
+      netaddr (~> 2.0)
+      simpleidn
+    netaddr (2.0.3)
+    simpleidn (0.1.1)
+      unf (~> 0.1.4)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.5-x64-mingw32)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  email_address
+
+BUNDLED WITH
+   1.17.1
