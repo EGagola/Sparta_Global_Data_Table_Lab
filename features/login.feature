@@ -21,11 +21,10 @@ Feature: Login Page
   @email_valid_test
   Scenario: Entering a variety of valid emails
     Given I have a data table of valid emails
-    | hello@fred.co.uk | #valid
-    | 123@bt.jp | #valid
-    | bill.bo@happy.com | #valid
-    | email@subdomain.domain.com | #valid
-    | email@123.123.123.123 | #valid
-    | "email"@domain.com | #valid
-    | _______@domain.com | #valid
+    | hello@fred.co.uk |
+    | email@subdomain.domain.com |
+    | Bob@cheese.com |
+    | frank0@greggs.com |
+    | 1234@esfd.org |
+    | hello@fred.uk |
     Then these emails should be accepted
